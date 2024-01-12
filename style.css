@@ -1,0 +1,155 @@
+*,::after,::before, a{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header-links{
+    border: 3px solid tomato;
+    width: 100%;
+}
+
+.header-container{
+    border: 3px solid aqua;
+    display: flex;
+    padding: 1.5rem;
+    background: hwb(0 100% 0%);
+}
+
+.header-left{
+    border: 3px solid greenyellow;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.header-right{
+    border: 3px solid red;
+    padding-left: 35em;
+    color: #555;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 22.5px */ 
+    display: flex;   
+    align-items: center;             
+}
+
+
+
+.contact-tel{
+    display: flex;
+    align-items: center;
+    border: 3px solid blue;
+}
+.contact-tel h1{
+    color: #141414;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 22.5px */
+    letter-spacing: -0.18px;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.list li a{
+    color: #555;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 22.5px */
+}
+
+.hide{
+    top: 2rem;
+    left: 0;
+    display: none;
+    transition: 100ms;
+    position: absolute;
+    padding: 15px 0;
+    border: 3px solid yellow;
+    list-style: none;
+    font-weight: 200;
+    width: 0rem;
+    text-decoration: none;
+}
+.show-links:hover .hide{
+    display: block;
+    width: 10rem;
+    transition: 200ms;
+}
+.show-links{
+    position:relative;
+}
+.list li a:hover  {
+    color: red;
+    background: #7A9CA5;
+    padding: 0.5rem;
+    transition: 200ms;
+    color: white;
+    border-radius: 10px;
+}
+.show-links:hover{
+    color: red;
+    background: #7A9CA5;
+    padding: 0.5rem;
+    transition: 200ms;
+    color: white;
+    border-radius:10px;
+}
+.social-icons{
+    display: flex;
+    padding: 0 2rem;
+    gap: 1.5rem;
+}
+.social-icons a{
+    text-decoration: none;
+    color: #141414;
+    text-align: center;
+    font-family: Font Awesome 5 Brands;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */
+    letter-spacing: 0.88px;
+    text-transform: uppercase;
+}
+
+.header-button button{
+    display: flex;
+    padding: 16px 33px;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    gap: 10px;
+    margin-left: 2.5rem;
+    background: #7A9CA5;
+    color: white;
+    outline: none;
+    border: 0;
+    transition: 200ms;
+}
+
+.header-button:hover button{
+    border-radius: 10px;
+    transition: 200ms;
+    padding: 13px 25px;
+}
+/* HEADER ENDS HERE----------------------------- */
+
+
+
+/* ========HERO SECTION STARTS HERE ================= */
+
+
+body{
+    background: red;
+}
