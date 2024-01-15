@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+html{
+    scroll-behavior: smooth; 
+ }
+
 .header-links{
     border: 3px solid tomato;
     width: 100%;
@@ -80,10 +84,16 @@
     font-weight: 200;
     width: 0rem;
     text-decoration: none;
+    z-index: 3;
+    background: #ffffff;
+    gap:1rem ;
+    
 }
+
+
 .show-links:hover .hide{
     display: block;
-    width: 10rem;
+    width: 11rem;
     transition: 200ms;
 }
 .show-links{
@@ -149,7 +159,488 @@
 
 /* ========HERO SECTION STARTS HERE ================= */
 
+.hero-container{
+    border: 3px solid white;
+    height: 925px;
+    display: flex;
+}
+
+.hero-left,
+.hero-right{
+    width: 55%;
+    height: 100%;
+    /* border: 3px solid greenyellow; */
+}
+
+.hero-left{
+    background: #EBF3F5;
+    display: flex;
+    flex-direction: column  ;
+    padding-left: 15%;   
+    z-index: 1;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.hero-left h6{
+    color: #5C8692;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 154.5%; /* 23.175px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.hero-left h3{
+    color: #141414;
+    font-family: Playfair Display;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%; /* 80.5px */
+    letter-spacing: -0.7px;  
+    width: 510px;           
+}
+
+.hero-left p{
+    color: #555;
+    font-family: Manrope;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 32.3px */
+    width: 508px;
+}
+
+
+.hero-button{
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 125%; /* 17.5px */
+    letter-spacing: 1.68px;
+    text-transform: uppercase;
+     display: flex;
+    padding: 23px 36px 24px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #5C8692;
+    width: fit-content;
+    height: 17px;
+    border: 0;
+    transition: 200ms;
+   
+}
+.hero-button:hover {
+    border-radius: 10px;
+    color: #141414;
+    transition: 200ms;
+    padding: 25px 39px;
+
+}
+
+.hero-button a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero-right{
+    background: #1E2C30;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.hero-frame{
+    width: 561px;
+    height: 663px;
+    border: 10px solid #FFF;
+    box-shadow: 0px 20px 60px 0px rgba(47, 68, 73, 0.46);
+    border-left: 0;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: -5em;
+    position: absolute;
+   
+}
+
+.img-holder{
+    /* border: 3px solid red; */
+    width: 620px;
+    height: 80%;
+    background: url(./asssets/pexels-sora-shimazaki-5938440\ 1.png);
+    background-repeat: no-repeat;
+    position: relative;
+    left: -4em;
+    top: 3rem;
+    z-index: 2;
+    box-shadow: 0px 20px 60px 0px rgba(47, 68, 73, 0.46);
+    
+   
+}
+
+
+/* ====================HERO SECTION ENDS HERE================ */
+
+
+
+
+
+/* ============SERVICES SECTION STARTS HERE======================== */
+
+.service-container{
+    border: 3px solid blue;
+    display: flex;
+    justify-content: center;
+    gap: 105px;
+    padding: 10rem;
+    background: white;
+}
+
+.service-img{
+    width: 327px;
+    /* border: 3px solid rgb(31, 29, 183); */
+    height: 265px;
+    
+}
+
+.one{
+    background: url(./asssets/Photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.two{
+    background: url(./asssets/Photo2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.three{
+    background: url(./asssets/Photo3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.services-wrapper{
+    width: 329px;
+    border: 3px solid white; 
+    padding: 5px;
+    overflow: hidden;
+}
+
+.services-wrapper h3{
+    color: #141414;
+    font-family: Playfair Display;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 31.2px */
+    padding: 1rem 0;
+}
+
+.services-wrapper p{
+    color: #555;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165%; /* 29.7px */
+    letter-spacing: 0.36px;
+    padding-bottom: 10px;
+}
+
+.service-button{
+    display: flex;
+padding: 18px 43px 19px 43px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+text-decoration: none;
+border: 0;
+
+}
+
+.service-button:hover{
+padding: 25px 50px;
+}
+
+
+
+.service-button a{
+    text-decoration: none;
+    color: #141414;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 125%; /* 17.5px */
+    letter-spacing: 1.68px;
+    text-transform: uppercase;
+}
+/* =============SERVICES SECTION ENDS HERE======================= */
+
+
+
+/* ===========ABOUT US SECTION STARTS HERE================  */
+
+.about-container{
+    display: flex;
+    gap: 155px;
+    justify-content: center;
+    background: #EBF3F5;
+    box-shadow: 0px 37px 60px 0px rgba(0, 0, 0, 0.02);
+    padding: 50px 0;
+}
+.about-left{
+    width: 529px;
+    border: 3px solid tomato;
+}
+
+
+.about-left h5{
+    color: #5C8692;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 154.5%; /* 23.175px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.about-left h2{
+    color: #141414;
+font-family: Playfair Display;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 58.5px */
+letter-spacing: -0.45px;
+width: 435px;
+padding: 20px 0;
+}
+
+.about-left p{
+    color: #555;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165%; /* 29.7px */
+    /* width: 529px; */
+    padding-bottom: 15px;
+}
+
+
+.about-wwrapper{
+    /* width: 520px; */
+    border: 3px solid rgb(8, 141, 66);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about{
+    /* border: 3px solid blue; */
+    /* height: 138px;
+    width: 165px;
+    display: block;  */
+    border: 1px solid #1E2C30;
+    background: #FFF;   
+    display: flex;
+    width: 153px;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    padding: 22px 11px;
+}
+
+
+.about-img{
+    width: 73px;
+    height: 74px;
+    flex-shrink: 0;
+    /* border: 3px solid aqua; */
+}
+
+.about p{
+    width: 99px;
+    text-align: center;
+    /* line-height: normal; */
+    color: #141414;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 26.4px */
+}
+
+.about1{
+    background: url(./asssets/Icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.about2{
+    background: url(./asssets/Icon2.png);
+    background-size: cover;
+}
+.about3{
+    background: url(./asssets/Vector3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.about-right{
+    width: 517px;
+    height: 550px;
+    flex-shrink: 0;
+    border: 3px solid white;
+    position: relative;
+    background: #7A9CA5;
+}
+
+
+.about-ri{
+    border: 3px solid red;
+    width: 500px;
+    height: 550px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 3rem;
+    right: 4rem;
+    background: url(./asssets/about_img.png), lightgray 50% / cover no-repeat;
+    
+}
+/* ===========ABOUT US SECTION ENDS HERE================  */
+
+
+/* =====OUR SERVICES SECTION STARTS HERE=============== */
+
+.our-services{
+    background: #FFF;
+}
+
+.our-serivces-container{
+    border: 3px solid blueviolet;
+}
+.top-container p{
+    color: #5C8692;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 154.5%; /* 23.175px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.top-container{
+    border: 3px solid rgb(43, 35, 200);
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+}
+.top-container h3{
+    color: #141414;
+text-align: center;
+font-family: Playfair Display;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 58.5px */
+letter-spacing: -0.45px;
+}
+
+
+.our-services-left{
+    width: 527px;
+    height: 600px;
+    border: 3px solid aqua;
+    background: url(./asssets/our-services.png);
+}
+
+.our-services-right{
+    border: 3px solid white;
+    width: 527px;
+    padding-top: 2rem;
+   
+}
+
+.our-services-wrapper {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid greenyellow;
+    padding: 0 22rem;
+}
+
+.text_house h1{
+    color: #141414;
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 1.1px;
+}
+
+.text_house p{
+    color: #555;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165%; /* 29.7px */
+    letter-spacing: 0.36px;
+}
+
+.text_house{
+    border-bottom: 1px solid  #9BB7BF;
+}
+
+.text-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.our-services-button{
+    display: flex;
+    padding: 23px 34px 24px 34px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: max-content;
+    outline: none;
+    border: 0;
+}
+
+.our-services-button a{
+    text-decoration: none;
+        color: #141414;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 125%; /* 17.5px */
+    letter-spacing: 1.68px;
+    text-transform: uppercase;
+}
+.sec{
+    background: url(./asssets/our-services2.png);
+}
+/* =====OUR SERVICES SECTION ENDS HERE=============== */
+
+
 
 body{
     background: red;
+    
 }
