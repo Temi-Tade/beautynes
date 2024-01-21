@@ -7,11 +7,46 @@
     <!-- CSS STYLE -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./asssets/fontawesome/css/all.css">
-
+    <link rel="stylesheet" href="./mobile.css">
     <link rel="stylesheet" href="https://fontawesome.com/icons/html5?f=brands&s=solid.css">
+
+
+<!-- =========GOOGLE FONT================ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     
 </head>
 <body>
+<div class="mobile-links-container">
+  <div class="mobile-logo" ></div>
+  <div class="hamburger">
+    <div class="bar"  onclick="addClass()"></div>
+  </div>
+</div>
+
+
+<div class="mobile-ul">
+  <ul>
+                            <li><a href="#services">Services</a> </li>
+                            <li><a href="#">Services single</a> </li>
+                            <li><a href="#">Team</a> </li>
+                            <li><a href="#">Team single</a> </li>
+                            <li><a href="#">Contact</a> </li>
+                            <li><a href="#blog">Blog</a> </li>
+                            <li><a href="#">Blog Single</a> </li>
+                            <li><a href="#">Location</a> </li>
+                            <li><a href="#">404</a> </li>
+                            <li><a href="#">Password Protected</a> </li>
+  </ul>
+</div>
+
+<div class="overlay" onclick="addClass()"></div>
+
  <header>
     <div class="header-links">
         <div class="header-container">
@@ -32,7 +67,7 @@
             <div class="header-right">
                 <ul class="list">
                     <li><a href="#">Home</a> </li>
-                    <li class="show-links">Pages
+                    <li class="show-links">Pages <i class="fa-solid fa-chevron-down"></i>
                         <ul class="hide">
                             
                             <li><a href="#about"> About</a></li>
@@ -41,7 +76,7 @@
                             <li><a href="#">Team</a> </li>
                             <li><a href="#">Team single</a> </li>
                             <li><a href="#">Contact</a> </li>
-                            <li><a href="#">Blog</a> </li>
+                            <li><a href="#blog">Blog</a> </li>
                             <li><a href="#">Blog Single</a> </li>
                             <li><a href="#">Location</a> </li>
                             <li><a href="#">404</a> </li>
@@ -54,12 +89,12 @@
                     <li><a href="#">Contact</a> </li>
                 </ul>
                 <div class="social-icons">
-                    <div class="icon"> <a href="#"><i class="fa-brands fa-facebook"></i></a></div>
+                    <div class="icon "> <a href="#"><i class="fa-brands fa-facebook"></i></a></div>
                     <div class="icon"><a href="#"> <i class="fa-brands fa-twitter"></i></a></div>
                     <div class="icon"><a href="#"><i class="fa-brands fa-linkedin"></i></a> </div>
                 </div>
                 <div class="header-button">
-                    <button type="submit"> <i class="fa-brands fa-calendar"></i> RESERVATION</button>
+                    <button type="submit"> <i class="fa-regular fa-square-check"></i> RESERVATION</button>
                 </div>
             </div>
     </div>
@@ -142,7 +177,7 @@
 
 
         <div class="about-left">
-             <h5>About Us</h5>
+             <h5 style="text-align: center;">About Us</h5>
                 <h2>The Beauty is about 
                     being Comfortable
                     in your own skin!
@@ -282,6 +317,145 @@
             <h3>What our Customers says...</h3>
         </div>
 
+
+        <div class="testimonial-wrapper">
+
+            <div class="testimonial-left">
+                <p>“ It is a long established fact that a reader will be tracked distracted by
+                     the readable content of a page is when looking at its layout. The point of 
+                     using Lorem of distribution it look like readable English “</p>
+
+                     <div class="testimonial-rating">
+                        <div class="rating-img"></div>
+
+                        <div class="rates">
+                         <div class="rate-logo-container">
+                            <div class="rate-star"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 17 18" fill="none">
+                                <g clip-path="url(#clip0_2_2938)">
+                                  <path d="M8.19108 12.5569L12.4094 15.0746L11.29 10.3294L15.0169 7.1366L10.1091 6.72485L8.19108 2.2496L6.27302 6.72485L1.36523 7.1366L5.09214 10.3294L3.97271 15.0746L8.19108 12.5569Z" fill="white"/>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_2_2938">
+                                    <rect width="16.382" height="16.2" fill="white" transform="translate(0 0.899994)"/>
+                                  </clipPath>
+                                </defs>
+                              </svg></div>
+                            <div class="rate-star"> <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18" fill="none">
+                                <g clip-path="url(#clip0_2_2938)">
+                                  <path d="M8.19108 12.5569L12.4094 15.0746L11.29 10.3294L15.0169 7.1366L10.1091 6.72485L8.19108 2.2496L6.27302 6.72485L1.36523 7.1366L5.09214 10.3294L3.97271 15.0746L8.19108 12.5569Z" fill="white"/>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_2_2938">
+                                    <rect width="16.382" height="16.2" fill="white" transform="translate(0 0.899994)"/>
+                                  </clipPath>
+                                </defs>
+                              </svg></div>
+                            <div class="rate-star"> <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18" fill="none">
+                                <g clip-path="url(#clip0_2_2938)">
+                                  <path d="M8.19108 12.5569L12.4094 15.0746L11.29 10.3294L15.0169 7.1366L10.1091 6.72485L8.19108 2.2496L6.27302 6.72485L1.36523 7.1366L5.09214 10.3294L3.97271 15.0746L8.19108 12.5569Z" fill="white"/>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_2_2938">
+                                    <rect width="16.382" height="16.2" fill="white" transform="translate(0 0.899994)"/>
+                                  </clipPath>
+                                </defs>
+                              </svg></div>
+                            <div class="rate-star"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18" fill="none">
+                                <g clip-path="url(#clip0_2_2938)">
+                                  <path d="M8.19108 12.5569L12.4094 15.0746L11.29 10.3294L15.0169 7.1366L10.1091 6.72485L8.19108 2.2496L6.27302 6.72485L1.36523 7.1366L5.09214 10.3294L3.97271 15.0746L8.19108 12.5569Z" fill="white"/>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_2_2938">
+                                    <rect width="16.382" height="16.2" fill="white" transform="translate(0 0.899994)"/>
+                                  </clipPath>
+                                </defs>
+                              </svg></div>
+                            <div class="rate-star"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18" fill="none">
+                                <path d="M15.6351 7.1366L10.7273 6.7181L8.80924 2.2496L6.89118 6.72485L1.9834 7.1366L5.71031 10.3294L4.59087 15.0746L8.80924 12.5569L13.0276 15.0746L11.915 10.3294L15.6351 7.1366ZM8.80924 11.2946V5.0171L9.97646 7.7441L12.9662 8.0006L10.7 9.9446L11.3826 12.8336L8.80924 11.2946Z" fill="white"/>
+                              </svg></div>
+                            
+                         </div>
+                        <h3>James Williams</h3>
+                        <h4>United States</h4>   
+                        </div>
+                        
+
+                        <div class="quote"><svg xmlns="http://www.w3.org/2000/svg" width="71" height="56" viewBox="0 0 71 56" fill="none">
+                            <path d="M70.0121 28L42.3757 55.6364V0.363647H70.0121V28Z" fill="white"/>
+                            <path d="M27.6364 28L0 55.6364V0.363647H27.6364V28Z" fill="white"/>
+                          </svg></div>
+                     </div>
+            </div>
+            
+            <div class="testimonial-left">
+                <p>“ It is a long established fact that a reader will be tracked distracted by
+                     the readable content of a page is when looking at its layout. The point of 
+                     using Lorem of distribution it look like readable English “</p>
+
+                     <div class="testimonial-rating">
+                        <div class="rating-imgg"></div>
+
+                        <div class="rates">
+                         <div class="rate-logo-container">
+                            <div class="rate-star"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 17 18" fill="none">
+                                <g clip-path="url(#clip0_2_2938)">
+                                  <path d="M8.19108 12.5569L12.4094 15.0746L11.29 10.3294L15.0169 7.1366L10.1091 6.72485L8.19108 2.2496L6.27302 6.72485L1.36523 7.1366L5.09214 10.3294L3.97271 15.0746L8.19108 12.5569Z" fill="white"/>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_2_2938">
+                                    <rect width="16.382" height="16.2" fill="white" transform="translate(0 0.899994)"/>
+                                  </clipPath>
+                                </defs>
+                              </svg></div>
+                            <div class="rate-star"> <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18" fill="none">
+                                <g clip-path="url(#clip0_2_2938)">
+                                  <path d="M8.19108 12.5569L12.4094 15.0746L11.29 10.3294L15.0169 7.1366L10.1091 6.72485L8.19108 2.2496L6.27302 6.72485L1.36523 7.1366L5.09214 10.3294L3.97271 15.0746L8.19108 12.5569Z" fill="white"/>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_2_2938">
+                                    <rect width="16.382" height="16.2" fill="white" transform="translate(0 0.899994)"/>
+                                  </clipPath>
+                                </defs>
+                              </svg></div>
+                            <div class="rate-star"> <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18" fill="none">
+                                <g clip-path="url(#clip0_2_2938)">
+                                  <path d="M8.19108 12.5569L12.4094 15.0746L11.29 10.3294L15.0169 7.1366L10.1091 6.72485L8.19108 2.2496L6.27302 6.72485L1.36523 7.1366L5.09214 10.3294L3.97271 15.0746L8.19108 12.5569Z" fill="white"/>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_2_2938">
+                                    <rect width="16.382" height="16.2" fill="white" transform="translate(0 0.899994)"/>
+                                  </clipPath>
+                                </defs>
+                              </svg></div>
+                            <div class="rate-star"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18" fill="none">
+                                <g clip-path="url(#clip0_2_2938)">
+                                  <path d="M8.19108 12.5569L12.4094 15.0746L11.29 10.3294L15.0169 7.1366L10.1091 6.72485L8.19108 2.2496L6.27302 6.72485L1.36523 7.1366L5.09214 10.3294L3.97271 15.0746L8.19108 12.5569Z" fill="white"/>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_2_2938">
+                                    <rect width="16.382" height="16.2" fill="white" transform="translate(0 0.899994)"/>
+                                  </clipPath>
+                                </defs>
+                              </svg></div>
+                            <div class="rate-star"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18" fill="none">
+                                <path d="M15.6351 7.1366L10.7273 6.7181L8.80924 2.2496L6.89118 6.72485L1.9834 7.1366L5.71031 10.3294L4.59087 15.0746L8.80924 12.5569L13.0276 15.0746L11.915 10.3294L15.6351 7.1366ZM8.80924 11.2946V5.0171L9.97646 7.7441L12.9662 8.0006L10.7 9.9446L11.3826 12.8336L8.80924 11.2946Z" fill="white"/>
+                              </svg></div>
+                            
+                         </div>
+                        <h3>Lieo Jessica</h3>
+                        <h4>United Kingdom</h4>   
+                        </div>
+                        
+
+                        <div class="quote"><svg xmlns="http://www.w3.org/2000/svg" width="71" height="56" viewBox="0 0 71 56" fill="none">
+                            <path d="M70.0121 28L42.3757 55.6364V0.363647H70.0121V28Z" fill="white"/>
+                            <path d="M27.6364 28L0 55.6364V0.363647H27.6364V28Z" fill="white"/>
+                          </svg></div>
+                     </div>
+            </div>
+            
+        </div>
+
     </div>
 
 </section>
@@ -293,6 +467,293 @@
 
 
 
+
+
+
+
+
+
+
+<!-- =================BENEFIT SECTION STARTS HERE======================= -->
+<section class="benefit-section">
+    <p class="ben"> Our Awesome Benefits</p>
+    <h2>Actually what you’ll get from</h2>
+
+    <div class="benefit-wrapper">
+        <div class="benefit">
+            <div class="benefit-img"></div>
+            <h4>Optimised Energy Efficiency</h4>
+            <p>The point of using Lorem Ipsum is that<br>  using making it look like readable.</p>
+        </div>
+
+        <div class="benefit">
+            <div class="benefit-img"></div>
+            <h4>Optimised Energy Efficiency</h4>
+            <p>The point of using Lorem Ipsum is that<br>  using making it look like readable.</p>
+        </div>
+        
+        <div class="benefit">
+            <div class="benefit-img"></div>
+            <h4>Optimised Energy Efficiency</h4>
+            <p>The point of using Lorem Ipsum is that<br>  using making it look like readable.</p>
+        </div>
+
+
+
+    </div>
+    <div class="benefit-wrapper">
+        <div class="benefit">
+            <div class="benefit-img"></div>
+            <h4>Optimised Energy Efficiency</h4>
+            <p>The point of using Lorem Ipsum is that<br>  using making it look like readable.</p>
+        </div>
+
+        <div class="benefit">
+            <div class="benefit-img"></div>
+            <h4>Optimised Energy Efficiency</h4>
+            <p>The point of using Lorem Ipsum is that<br>  using making it look like readable.</p>
+        </div>
+
+        <div class="benefit">
+            <div class="benefit-img"></div>
+            <h4>Optimised Energy Efficiency</h4>
+            <p>The point of using Lorem Ipsum is that<br>  using making it look like readable.</p>
+        </div>
+
+
+
+    </div>
+
+</section>
+
+<!-- =================BENEFIT SECTION STARTS ENDS======================= -->
+
+
+<!-- ===================CONTACT US & DISCOUNT SECTION STARTS HERE =================== -->
+
+<section class="contact-section">
+
+    <div class="contact-container">
+
+        <div class="contact-left">
+            <p class="Flat">Flat Discount </p>
+            <h5>Claim upto 50% offer
+                on ‍the most popular services...</h5>
+
+                <p class="per">There are many variations of passages of Lorem Ipsum available,
+                     but the majority have suffered alteration in some form, buying to
+                      injected humour, or randomised words.</p>
+
+           <div class="discount-container">
+
+            <div class="discount-left">
+              <h3> <strong> MAIL US :</strong>
+                info@beautyness.com</h3>
+
+
+              <h3> <strong> CALL US : </strong>
+                (+22) 123 4568 009</h3>
+
+            </div>
+
+
+            <div class="discount-right">
+              <P class="typo"> - Get Flat -</P>
+                <div class="discount-price">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="99" height="50" viewBox="0 0 99 50" fill="none">
+                    <path d="M15.9248 49.25C13.5632 49.25 11.3423 48.7625 9.26234 47.7875C7.20401 46.8125 5.42734 45.4583 3.93234 43.725C2.43734 41.9917 1.36484 39.9767 0.714844 37.68L9.22984 35.405C9.51151 36.51 10.0098 37.4633 10.7248 38.265C11.4615 39.0667 12.3065 39.695 13.2598 40.15C14.2348 40.5833 15.2315 40.8 16.2498 40.8C17.5932 40.8 18.8173 40.475 19.9223 39.825C21.049 39.175 21.9373 38.2975 22.5873 37.1925C23.259 36.0875 23.5948 34.8633 23.5948 33.52C23.5948 32.1767 23.259 30.9525 22.5873 29.8475C21.9373 28.7425 21.049 27.865 19.9223 27.215C18.8173 26.565 17.5932 26.24 16.2498 26.24C14.6032 26.24 13.2598 26.5217 12.2198 27.085C11.1798 27.6267 10.3998 28.1467 9.87984 28.645L2.40484 26.37L3.83484 1.475H29.3798V9.73H8.70984L11.8298 6.805L10.8548 22.86L9.35984 21.04C10.5298 20.0867 11.8623 19.3933 13.3573 18.96C14.8523 18.5267 16.2498 18.31 17.5498 18.31C20.4965 18.31 23.0857 18.9708 25.3173 20.2925C27.5707 21.5925 29.3257 23.3908 30.5823 25.6875C31.8607 27.9625 32.4998 30.5733 32.4998 33.52C32.4998 36.4667 31.7307 39.1317 30.1923 41.515C28.654 43.8767 26.6282 45.7617 24.1148 47.17C21.6015 48.5567 18.8715 49.25 15.9248 49.25Z" fill="white"/>
+                    <path d="M54.3962 49.25C50.9295 49.25 47.8962 48.5242 45.2962 47.0725C42.6962 45.6208 40.6704 43.595 39.2187 40.995C37.767 38.395 37.0412 35.3617 37.0412 31.895V17.855C37.0412 14.3883 37.767 11.355 39.2187 8.755C40.6704 6.155 42.6962 4.12916 45.2962 2.6775C47.8962 1.22583 50.9295 0.5 54.3962 0.5C57.8629 0.5 60.8962 1.22583 63.4962 2.6775C66.0962 4.12916 68.122 6.155 69.5737 8.755C71.0254 11.355 71.7512 14.3883 71.7512 17.855V31.895C71.7512 35.3617 71.0254 38.395 69.5737 40.995C68.122 43.595 66.0962 45.6208 63.4962 47.0725C60.8962 48.5242 57.8629 49.25 54.3962 49.25ZM54.3962 40.865C55.9562 40.865 57.3645 40.4967 58.6212 39.76C59.8779 39.0233 60.8745 38.0267 61.6112 36.77C62.3479 35.5133 62.7162 34.105 62.7162 32.545V17.14C62.7162 15.58 62.3479 14.1717 61.6112 12.915C60.8745 11.6583 59.8779 10.6617 58.6212 9.925C57.3645 9.18833 55.9562 8.82 54.3962 8.82C52.8362 8.82 51.4279 9.18833 50.1712 9.925C48.9145 10.6617 47.9179 11.6583 47.1812 12.915C46.4445 14.1717 46.0762 15.58 46.0762 17.14V32.545C46.0762 34.105 46.4445 35.5133 47.1812 36.77C47.9179 38.0267 48.9145 39.0233 50.1712 39.76C51.4279 40.4967 52.8362 40.865 54.3962 40.865Z" fill="white"/>
+                    <path d="M77.24 48.275L75.74 46.775L95.885 26.675L97.385 28.16L77.24 48.275ZM92.885 48.725C91.895 48.725 90.99 48.485 90.17 48.005C89.36 47.515 88.71 46.865 88.22 46.055C87.73 45.235 87.485 44.325 87.485 43.325C87.485 42.345 87.735 41.445 88.235 40.625C88.735 39.805 89.395 39.15 90.215 38.66C91.035 38.17 91.925 37.925 92.885 37.925C93.875 37.925 94.78 38.17 95.6 38.66C96.42 39.14 97.07 39.79 97.55 40.61C98.04 41.42 98.285 42.325 98.285 43.325C98.285 44.325 98.04 45.235 97.55 46.055C97.07 46.865 96.42 47.515 95.6 48.005C94.78 48.485 93.875 48.725 92.885 48.725ZM92.885 46.73C93.495 46.73 94.06 46.575 94.58 46.265C95.1 45.955 95.515 45.545 95.825 45.035C96.135 44.515 96.29 43.945 96.29 43.325C96.29 42.705 96.135 42.14 95.825 41.63C95.515 41.11 95.1 40.695 94.58 40.385C94.06 40.075 93.495 39.92 92.885 39.92C92.265 39.92 91.695 40.075 91.175 40.385C90.665 40.695 90.25 41.11 89.93 41.63C89.62 42.14 89.465 42.705 89.465 43.325C89.465 43.945 89.62 44.515 89.93 45.035C90.25 45.545 90.665 45.955 91.175 46.265C91.695 46.575 92.265 46.73 92.885 46.73ZM80.24 37.025C79.25 37.025 78.345 36.785 77.525 36.305C76.705 35.815 76.05 35.165 75.56 34.355C75.08 33.535 74.84 32.625 74.84 31.625C74.84 30.645 75.09 29.745 75.59 28.925C76.09 28.105 76.75 27.45 77.57 26.96C78.39 26.47 79.28 26.225 80.24 26.225C81.23 26.225 82.13 26.47 82.94 26.96C83.76 27.44 84.415 28.09 84.905 28.91C85.395 29.72 85.64 30.625 85.64 31.625C85.64 32.625 85.395 33.535 84.905 34.355C84.415 35.165 83.76 35.815 82.94 36.305C82.13 36.785 81.23 37.025 80.24 37.025ZM80.24 35.03C80.86 35.03 81.425 34.875 81.935 34.565C82.455 34.255 82.87 33.845 83.18 33.335C83.49 32.815 83.645 32.245 83.645 31.625C83.645 31.005 83.49 30.44 83.18 29.93C82.87 29.41 82.455 28.995 81.935 28.685C81.425 28.375 80.86 28.22 80.24 28.22C79.62 28.22 79.05 28.375 78.53 28.685C78.02 28.995 77.61 29.41 77.3 29.93C76.99 30.44 76.835 31.005 76.835 31.625C76.835 32.245 76.99 32.815 77.3 33.335C77.61 33.845 78.02 34.255 78.53 34.565C79.05 34.875 79.62 35.03 80.24 35.03Z" fill="white"/>
+                  </svg>
+                </div>
+                <p class="typo">Discount</p>
+          </div>
+           </div>     
+
+        </div> 
+         
+         
+        <div class="contact-right">
+            <div class="input-container">
+                <i class="fa fa-user"></i>
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="input-container">
+                <i class="fa-regular fa-envelope"></i>
+                <input type="email" placeholder="Phone">
+            </div>
+            <div class="input-container">
+                <i class="fa-solid fa-phone"></i>
+                <input type="text" placeholder="Service You Need">
+            </div>
+            <div class="input-container">
+                <i class="fa-solid fa-book-open"></i>
+                <input type="text" placeholder="Any Note For Us ">
+            </div>
+            <div class="input-container">
+                <!-- <i class="fa-solid fa-book-open"></i> -->
+                <textarea name="" id="your-text" placeholder="Any Note For Us"></textarea>
+            </div>
+
+        </div>
+    </div>
+
+
+</section>
+
+
+<!-- =================== CONTACT US & DISCOUNT SECTION ENDS HERE =================== -->
+
+
+<!-- =========================== OUR BLOG SECTION STARTS HERE ============================== -->
+<section id="blog">
+
+  <P class="blog-small">Our Blog</P>
+  <h3 class="blog-big">Latest Updates</h3>
+
+
+  <div class="blog-container">
+    <div class="blog">
+      <div class="blog-img blog1"></div>
+      <p class="top">11TH AUGUST 2021----BY PETER BERGSON</p>
+      <p class="big">The energy efficiency of the hydrotherapy or swim</p>
+
+      <p class="small">The point of using Lorem Ipsum hiter that using making it look like others readable will get end.</p>
+    </div>
+
+    <div class="blog">
+      <div class="blog-img blog2"></div>
+      <p class="top">11TH AUGUST 2021----BY PETER BERGSON</p>
+      <p class="big">The energy efficiency of the hydrotherapy or swim</p>
+
+      <p class="small">The point of using Lorem Ipsum hiter that using making it look like others readable will get end.</p>
+    </div>
+
+    <div class="blog">
+      <div class="blog-img blog3"></div>
+      <p class="top">11TH AUGUST 2021----BY PETER BERGSON</p>
+      <p class="big">The energy efficiency of the hydrotherapy or swim</p>
+
+      <p class="small">The point of using Lorem Ipsum hiter that using making it look like others readable will get end.</p>
+    </div>
+
+  </div>
+
+
+  <div class="blog-button">
+
+    <button class="blog-but"><a href="#">VIEW MORE STORIES</a> </button>
+
+  </div>
+
+
+
+</section>
+
+
+<!-- =========================== OUR BLOG SECTION END HERE ============================== -->
+
+
+
+
+<!-- =======================FOOTER SECTION STARTS HERE==================== -->
+<footer>
+
+  <div class="footer-top">
+
+    <div class="footer-logo-container">
+       <div class="footer-logo"><svg xmlns="http://www.w3.org/2000/svg" width="66" height="65" viewBox="0 0 66 65" fill="none">
+        <circle cx="33" cy="32.5" r="30" stroke="#5C8692" stroke-width="5"/>
+        <path d="M49.2812 23.999C49.5285 26.5686 48.5984 29.1452 46.6956 31.1621L35.307 43.2689L19.6204 44.7787L18.3001 31.061L29.7087 18.9686C31.6115 16.9516 34.3313 15.6597 37.2696 15.3769L47.5468 15.6229L49.2812 23.999Z" stroke="#5C8692" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M39.8941 23.6367L10.3486 53.1822" stroke="#5C8692" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M41.8641 35.4551H28.0762" stroke="#5C8692" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M39.8943 23.6367H26.1064" stroke="#5C8692" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg></div>
+      <h3 class="top-text">Beautyness</h3>
+
+    </div>
+
+
+    <div class="footer-social-links">
+      <div class="social"><a href="#"><i class="fa-brands fa-facebook"></i></a></div>
+      <div class="social"><a href="#"><i class="fa-brands fa-twitter"></i></a></div>
+      <div class="social"><a href="#"><i class="fa-brands fa-linkedin"></i></a></div>
+      <div class="social"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+    </div>
+
+  </div>
+
+  <div class="footer-down">
+
+    <div class="footer-links">
+      <h3>Explore</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a</li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Appointments</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-links">
+      <h3>Utility Pages</h3>
+      <ul>
+        <li><a href="#">Start here</a></li>
+        <li><a href="#">Style guide</a></li>
+        <li><a href="#">404 not found</a></li>
+        <li><a href="#">password protected</a></li>
+        <li><a href="#">Licenses</a></li>
+        <li><a href="#">Changelog</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-links">
+      <h3>Keep In Touch</h3>
+      <ul>
+        <li><a href="www.google/map.24A Kingston St, Los Vegas NC 28202, USA." target="_blank">Address : 24A Kingston St, Los Vegas NC 28202, USA.</a></li>
+        <li><a href="#">Mail : support@doctors.com</a></li>
+        <li><a href="#">Phone : (+22) 123 - 4567 - 900</a></li>
+
+      </ul>
+    </div>
+
+    <div class="footer-links">
+      <h3>Working Hours</h3>
+      <ul>
+        <li>Mon to Fri: 7am - 6pm</li>
+        <li> Sat: 9am - 7pm</li>
+        <li>Sun: 9am - 6pm</li>
+        
+      </ul>
+    </div>
+
     
+
+
+  </div>
+
+ 
+
+</footer>
+
+<div class="copyright-container">
+  <div class="copyright"> Copyright 2024. by CREATIVE HEESAK
+</div>
+
+<!-- =======================FOOTER SECTION ENDS HERE==================== -->
+
+
+
+
+
+
+
+
+
+
+
+  <script src="./script.js"></script>  
 </body>
 </html>
