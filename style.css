@@ -13,9 +13,10 @@ html{
 
 /* =====================MOBILE LINKS AND HAMBURGER MENU STARTS HERE=================================== */
 .mobile-links-container{
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px 20px;
     background: #fff;
     position: fixed;
@@ -29,9 +30,9 @@ html{
 }
 
 .mobile-logo{
-    border: 3px solid white;
-    width: 198px;
-    
+    /* border: 3px solid white; */
+    width: 170px;
+    color: #111E22;
     height: 50px;
     background: url(./asssets/Logo.svg);
     background-size: contain;
@@ -39,21 +40,22 @@ html{
 }
 
 .hamburger{
-    border: 3px solid ;
+    /* border: 3px solid ; */
     width:100px ;
     height: 70px;
     display: flex;
     flex-direction: column;
-   justify-content: center;
-   align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .bar{
-    width: 70px;
-    height: 14.71px;
-    content: "";
+    width: 60px;
+    height: 10.71px;
+    /* content: ""; */
+    border-radius: 8px;
     position: relative;
-    background: black;
+    background: #111E22;
 } 
 
  .bar::after{
@@ -67,9 +69,9 @@ html{
 
  .bar::before,
 .bar::after {
-    width: 70px;
-    height: 14.71px;
-   
+    width: 60px;
+    height: 10.71px;
+    border-radius: 8px;
     content: '';
     position: absolute;
     background: #111E22;
@@ -94,6 +96,7 @@ html{
     background: #111E22;
     text-align: center;
     display: none;
+    height: 100vh;
 }
 
 .hh{
@@ -136,12 +139,12 @@ html{
 
 
 .header-links{
-    border: 3px solid tomato;
+    /* border: 3px solid tomato; */
     /* width: 100%; */
 }
 
 .header-container{
-    border: 3px solid aqua;
+    /* border: 3px solid aqua; */
     justify-content: space-between;
     display: flex;
     padding: 0.5rem 1rem ;
@@ -149,7 +152,7 @@ html{
 }
 
 .header-left{
-    border: 3px solid greenyellow;
+    /* border: 3px solid greenyellow; */
     display: flex;
     align-items: center;
     gap: 3rem;
@@ -173,7 +176,7 @@ html{
 .contact-tel{
     display: flex;
     align-items: center;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
 }
 .contact-tel h1{
     color: #141414;
@@ -207,7 +210,7 @@ html{
     transition: 200ms;
     position: absolute;
     padding: 15px 0;
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     list-style: none;
     font-weight: 200;
     width: 0rem;
@@ -732,7 +735,7 @@ letter-spacing: -0.45px;
 }
 
 .text_house{
-    border-bottom: 1px solid  #9BB7BF;
+    /* border-bottom: 1px solid  #9BB7BF; */
 }
 
 .text-wrapper{
@@ -884,7 +887,7 @@ letter-spacing: -0.45px;
 }
 
 .benefit-wrapper{
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     /* width: 330px; */
     display: flex;
     justify-content: space-evenly;
@@ -992,7 +995,7 @@ width: 435px;
 }
 .input-container {
     position: relative;
-    border: 1px solid #5C8692;
+    /* border: 1px solid #5C8692; */
     background: transparent;
   }
 
@@ -1278,7 +1281,7 @@ footer{
     width: 55px;
     height: 55px;
     font-size: 25px;
-    border: 2px solid #5C8692;
+    /* border: 2px solid #5C8692; */
     display: flex;
     justify-content: center;
     align-items: center;
