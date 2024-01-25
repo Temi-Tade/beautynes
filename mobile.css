@@ -81,9 +81,16 @@
    }
 
    .blog-container{
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
     flex-wrap: wrap;
+    text-align: center;
     /* border: 3px solid greenyellow; */
+   }
+
+   .blog-img{
+    width: 98%;
    }
 
 
@@ -301,6 +308,7 @@
    }
    .blog-container{
     flex-wrap: wrap;
+    padding: 0 10px;
    }
 
    footer{

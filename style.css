@@ -147,11 +147,11 @@ button{
     /* border: 3px solid blue; */
 }
 .contact-tel h1{
-    color: #141414;
+    color: #555;
     font-family: Manrope;
-    font-size: 18px;
+    font-size: 15px;
     font-style: normal;
-    font-weight: 600;
+    /* font-weight: 600; */
     line-height: 125%; /* 22.5px */
     letter-spacing: -0.18px;
 }
@@ -200,6 +200,7 @@ button{
     text-decoration: none;
     background: #ffffff;
     gap:1rem ;
+    /* top:0 ; */
 }
 
 .show-links{
@@ -209,7 +210,7 @@ button{
 }
 
 .show-links:hover .hide{
-    top: 3rem;
+    top: 2.5rem;
     transition: .5s;
     transform: scale(1);
     opacity: 1;
@@ -472,6 +473,7 @@ button{
 }
 
 .service-button{
+    background: #111E22;
     display: flex;
 padding: 18px 43px 19px 43px;
 justify-content: center;
@@ -490,7 +492,7 @@ padding: 25px 50px;
 
 .service-button a{
     text-decoration: none;
-    color: #141414;
+    color: #ffffff;
     text-align: center;
     font-family: Manrope;
     font-size: 14px;
@@ -1132,6 +1134,7 @@ letter-spacing: -0.45px;
 .blog-container{
     display: flex;
     justify-content: space-evenly;
+    /* border: 3px solid red;F */
 }
 .blog-img{
     width: 370px;

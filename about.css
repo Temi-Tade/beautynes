@@ -1,0 +1,75 @@
+/* =======================ABOUT HERO STARTS HERE ================================== */
+
+.about-hero-container{
+    border: 3px solid red;
+    width: 100%;
+    background: #0d2f38;
+    padding: 40px 0;
+}
+
+.about-hero p{
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 154.5%; /* 23.175px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.about-hero h3{
+    color: #FFF;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+   padding: 10px 0;
+    letter-spacing: -0.55px;
+}
+
+
+.about-hero-button{
+    width: 100%;
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.hero-btn{
+    display: flex;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #5C8692;
+}
+.hero-btn a{
+    color: white;
+}
+/* =======================ABOUT HERO ENDS HERE ================================== */
+
+
+/* ======================OUR VALUES SECTION STARTS HERE======================= */
+.our-values-container{
+    padding: 3rem 0;
+    border: 3px solid blue;
+    /* text-align: center; */
+}
+
+.value{
+    border: 3px solid aqua;
+    display: flex;
+}
+
+.value-img{
+    width: 100px;
+    height: 100px;
+    border: 3px solid red;
+
+}
+
+/* ======================OUR VALUES SECTION END HERE======================= */
