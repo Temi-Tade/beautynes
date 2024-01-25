@@ -60,16 +60,67 @@
     /* text-align: center; */
 }
 
+.our-values-container .pp{
+    text-align: center;
+}
+
+.size{
+    color: #141414;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 58.5px */
+    letter-spacing: -0.45px;
+    padding-bottom:20px ;
+}
 .value{
-    border: 3px solid aqua;
+    border-bottom: 1px solid #D3D3D3;
     display: flex;
+    gap: 20px;
+    padding: 15px 0;
 }
 
 .value-img{
     width: 100px;
     height: 100px;
     border: 3px solid red;
+    overflow: hidden;
 
 }
 
+.value-text{
+    /* padding-top: 3rem; */
+}
+
+.value-text h5{
+    color: #141414;
+    font-family: "Playfair Display";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 26.4px */
+}
+
+.value-text p{
+    color: #555;
+font-family: Manrope;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 175%; /* 31.5px */
+}
+
+.values-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
 /* ======================OUR VALUES SECTION END HERE======================= */
+
+/* ===========================================ABOUT US SECTION STARTS HERE======================== */
+
+
+/* ===========================================ABOUT US SECTION ENDS HERE======================== */
