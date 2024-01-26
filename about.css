@@ -121,6 +121,180 @@ line-height: 175%; /* 31.5px */
 /* ======================OUR VALUES SECTION END HERE======================= */
 
 /* ===========================================ABOUT US SECTION STARTS HERE======================== */
+.bout-us{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 3px solid greenyellow;
+    padding: 10rem 0;
+    background: #EBF3F5;
+}
+.bout-us-container{
+    border: 3px solid red;
+    width: 80%;
+    padding:15rem  3rem ;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background: #1E2C30;
+    color: white;
+}
 
+.bout-left{
+    width: 40%;
+    height: 400px;
+    flex-shrink: 0;
+    border: 3px solid;
+    background:url(./asssets/bout-img.png);
+    
+    background-position: center;
+    background-size: cover;
+}
+
+.right-m{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 154.5%; /* 23.175px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.right-p{
+    color: #FFF;
+font-family: "Playfair Display";
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 58.5px */
+letter-spacing: -0.45px;
+width: 460px;
+}
+
+.right-d{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%; /* 31.5px */
+}
 
 /* ===========================================ABOUT US SECTION ENDS HERE======================== */
+
+
+/* ==========================EXPERT SECTION STARTS HERE======================== */
+.expert-section{
+    padding: 4rem 0;
+}
+.expert-wrapper{
+    border: 3px solid red;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap :5rem;
+}
+
+.ex-p{
+    color: #5C8692;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 154.5%; /* 23.175px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.ex-big{
+    color: #141414;
+text-align: center;
+font-family: "Playfair Display";
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 58.5px */
+letter-spacing: -0.45px;
+padding-bottom: 10px;
+}
+.expert{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
+.expert-img{
+    width: 300px;
+    height: 350px;
+    border: 3px solid red;
+    background-size: cover;
+}
+
+.expert-one{
+    background: url(./asssets/expert1.png);
+
+}
+.expert-two{
+    background: url(./asssets/expert2.png);
+
+}
+.expert-three{
+    background: url(./asssets/expert3.png);
+
+}
+
+.expert h4{
+    color: #141414;
+    /* text-align: center; */
+    font-family: "Playfair Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 28.8px */
+}
+
+.tt{
+    color: #5C8692;
+    /* text-align: center; */
+    font-family: Manrope;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 154.5%; /* 23.175px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.ttt{
+    color: #555;
+    /* text-align: center; */
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    width: 300px;
+}
+
+.expert-social{
+    border: 3px solid aqua;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.expert-social a{
+    text-decoration: none;
+    color: #141414;
+    font-size: 20px;
+}
+
+/* ==========================EXPERT SECTION ENDS HERE======================== */
+
+/* /========================FOLLOW US SECTION STARTS HERE========================== */
+
+/* /========================FOLLOW US SECTION ENDS HERE========================== */
