@@ -1,5 +1,4 @@
 var men =document.querySelector('.mobile-ul')
-var over =document.querySelector('.overlay')
 
 function addClass(icon){
     if (icon.getAttribute("class") === "fa-solid fa-bars") {
@@ -8,6 +7,5 @@ function addClass(icon){
         icon.setAttribute("class", "fa-solid fa-bars")
     }
 
-    men.classList.toggle("hh")
-    over.classList.toggle("hhh")
+    men.classList.toggle("show")
 }

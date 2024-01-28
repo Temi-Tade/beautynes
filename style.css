@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    transition: .5s;
 }
 
 html{
@@ -15,7 +16,7 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: .5rem;
     background: #fff;
     position: fixed;
     top: 0;
@@ -55,13 +56,16 @@ button{
     width: 100vw;
     background: #111E22;
     text-align: center;
-    display: none;
-    height: 100vh;
     padding: 1rem 0;
+    display: none;
+    position: fixed;
+    top: 5rem;
+    z-index: 100;
 }
 
 .mobile-ul li a{
     display: block;
+    font-size: 1rem;
 }
 
 .mobile-ul li a:hover{
@@ -70,23 +74,19 @@ button{
     padding: .25rem;
 }
 
-.hh{
+.show{
     display: block;
 }
 
-.overlay{
-    display: none;
-}
-
-.hhh.overlay{
+/* {
     width: 100vw;
-    height: 100vh;
-    background: transparent;
+    height: auto;
+    background: red;
     position: absolute;
     z-index: 13;
     display: flex;
     
-}
+} */
 
 .hhh .overlay{
     display: flex;
@@ -215,7 +215,7 @@ button{
     opacity: 1;
 }
 .show-links{
-    position:relative;
+    position: relative;
 }
 .list li a:hover  {
     background: #7A9CA5;
@@ -512,7 +512,7 @@ padding: 25px 50px;
     justify-content: center;
     background: #EBF3F5;
     box-shadow: 0px 37px 60px 0px rgba(0, 0, 0, 0.02);
-    padding: 50px 0;
+    padding: 1rem;
 }
 .about-left{
     width: 529px;
@@ -536,27 +536,26 @@ padding: 25px 50px;
 
 .about-left h2{
     color: #141414;
-font-family: Playfair Display;
-font-size: 45px;
-font-style: normal;
-font-weight: 700;
-line-height: 130%; /* 58.5px */
-letter-spacing: -0.45px;
-width: 435px;
-padding: 20px 0;
+    font-family: Playfair Display;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 58.5px */
+    letter-spacing: -0.45px;
+    width: 435px;
+    padding: 20px 0;
 }
 
 .about-left p{
     color: #555;
     font-family: Manrope;
-    font-size: 18px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: 165%; /* 29.7px */
     /* width: 529px; */
     padding-bottom: 15px;
 }
-
 
 .about-wwrapper{
     /* width: 520px; */
@@ -624,7 +623,6 @@ padding: 20px 0;
     position: relative;
     background: #7A9CA5;
 }
-
 
 .about-ri{
     /* border: 3px solid red; */
@@ -985,9 +983,11 @@ width: 435px;
     background: transparent;
   }
 
-  .input-container input[type=text] {
+  .input-container input {
     /* border: 3px solid rgb(255, 0, 251); */
     outline:0;
+    border-radius: .5rem;
+    padding: .5rem;
   }
 
   
@@ -997,6 +997,8 @@ width: 435px;
     background: #FFF;
     color: #555;
     outline: none;
+    padding: .5rem;
+    border-radius: .5rem;
   }
   
 
@@ -1215,19 +1217,17 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 2rem 0;
-    
 }
 
 .footer-down{
     display: flex;
     justify-content: space-between;
+    padding: .5rem;
 }
 
 .footer-logo-container{
     display: flex;
     align-items: center;
-
-
 }
 
 .top-text{
@@ -1282,16 +1282,16 @@ footer{
 }
 
 .footer-links ul, li a {
-list-style: none;
-color: #FFF;
-font-family: Manrope;
-font-size: 17px;
-font-style: normal;
-font-weight: 500;
-line-height: 200%; /* 34px */
-letter-spacing: -0.17px;
-transition: 200ms;
-border: 2px solid transparent;
+    list-style: none;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; /* 34px */
+    letter-spacing: -0.17px;
+    transition: 200ms;
+    border: 2px solid transparent;
 }
 
 .footer-links li a:hover{
@@ -1318,9 +1318,3 @@ border: 2px solid transparent;
     letter-spacing: -0.15px;
 }
 /* =======================FOOTER SECTION ENDS HERE==================== */
-
-
-
-body{
-    /* background: red;   */
-}
