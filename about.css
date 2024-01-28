@@ -1,0 +1,516 @@
+/* =======================ABOUT HERO STARTS HERE ================================== */
+
+.about-hero-container{
+    /* border: 3px solid red; */
+    width: 100%;
+    background: #0d2f38;
+    padding: 40px 0;
+}
+
+.about-hero p{
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 154.5%; /* 23.175px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.about-hero h3{
+    color: #FFF;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+   padding: 10px 0;
+    letter-spacing: -0.55px;
+}
+
+
+.about-hero-button{
+    width: 100%;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.hero-btn{
+    display: flex;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #5C8692;
+}
+.hero-btn a{
+    color: white;
+}
+/* =======================ABOUT HERO ENDS HERE ================================== */
+
+
+/* ======================OUR VALUES SECTION STARTS HERE======================= */
+.our-values-container{
+    padding: 3rem 0;
+    /* border: 3px solid blue; */
+    /* text-align: center; */
+}
+
+.our-values-container .pp{
+    text-align: center;
+}
+
+.size{
+    color: #141414;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 58.5px */
+    letter-spacing: -0.45px;
+    padding-bottom:20px ;
+}
+.value{
+    border-bottom: 1px solid #D3D3D3;
+    display: flex;
+    gap: 20px;
+    padding: 15px 0;
+}
+
+.value-img{
+    width: 100px;
+    height: 100px;
+    /* border: 3px solid red; */
+    overflow: hidden;
+
+}
+
+.value-text{
+    /* padding-top: 3rem; */
+}
+
+.value-text h5{
+    color: #141414;
+    font-family: "Playfair Display";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 26.4px */
+}
+
+.value-text p{
+    color: #555;
+font-family: Manrope;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 175%; /* 31.5px */
+}
+
+.values-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+/* ======================OUR VALUES SECTION END HERE======================= */
+
+/* ===========================================ABOUT US SECTION STARTS HERE======================== */
+.bout-us{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* border: 3px solid greenyellow; */
+    padding: 10rem 0;
+    background: #EBF3F5;
+}
+.bout-us-container{
+    /* border: 3px solid red; */
+    width: 80%;
+    padding:15rem  3rem ;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background: #1E2C30;
+    color: white;
+}
+
+.bout-left{
+    width: 40%;
+    height: 400px;
+    flex-shrink: 0;
+    /* border: 3px solid; */
+    background:url(./asssets/bout-img.png);
+    
+    background-position: center;
+    background-size: cover;
+}
+
+.right-m{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 154.5%; /* 23.175px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.right-p{
+    color: #FFF;
+font-family: "Playfair Display";
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 58.5px */
+letter-spacing: -0.45px;
+width: 460px;
+}
+
+.right-d{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%; /* 31.5px */
+}
+
+/* ===========================================ABOUT US SECTION ENDS HERE======================== */
+
+
+/* ==========================EXPERT SECTION STARTS HERE======================== */
+.expert-section{
+    padding: 4rem 0;
+}
+.expert-wrapper{
+    /* border: 3px solid red; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap :5rem;
+}
+
+.ex-p{
+    color: #5C8692;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 154.5%; /* 23.175px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.ex-big{
+    color: #141414;
+text-align: center;
+font-family: "Playfair Display";
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 58.5px */
+letter-spacing: -0.45px;
+padding-bottom: 10px;
+}
+.expert{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
+.expert-img{
+    width: 300px;
+    height: 350px;
+    /* border: 3px solid red; */
+    background-size: cover;
+}
+
+.expert-one{
+    background: url(./asssets/expert1.png);
+
+}
+.expert-two{
+    background: url(./asssets/expert2.png);
+
+}
+.expert-three{
+    background: url(./asssets/expert3.png);
+
+}
+
+.expert h4{
+    color: #141414;
+    /* text-align: center; */
+    font-family: "Playfair Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 28.8px */
+}
+
+.tt{
+    color: #5C8692;
+    /* text-align: center; */
+    font-family: Manrope;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 154.5%; /* 23.175px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.ttt{
+    color: #555;
+    /* text-align: center; */
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    width: 300px;
+}
+
+.expert-social{
+    /* border: 3px solid aqua; */
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.expert-social a{
+    text-decoration: none;
+    color: #141414;
+    font-size: 20px;
+}
+
+/* ==========================EXPERT SECTION ENDS HERE======================== */
+
+/* /========================FOLLOW US SECTION STARTS HERE========================== */
+.follow-us{
+    padding: 30px 0;
+}
+.follow-us-wrapper{
+    /* border: 3px solid; */
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.left-img{
+    width: 350px;
+    height: 500px;
+    /* border: 3px solid red; */
+    background: url(./asssets/follow-img1.png);
+    background-size: contain;
+
+}
+
+.sh{
+    color: #5C8692;
+    font-family: Manrope;
+    font-size: 13px;
+    font-style: normal;
+    /* font-weight: 600; */
+    line-height: 154.5%; /* 23.175px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.follow-text{
+    color: #141414;
+    font-family: "Playfair Display";
+    font-size: 30px;
+    font-style: normal;
+    /* font-weight: 700; */
+    line-height: 100%; /* 58.5px */
+    letter-spacing: -0.45px;
+    padding: 10px 0;
+}
+
+.follow-content{
+    color: #555;
+    padding: 20px 0;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%; /* 31.5px */
+}
+
+.right-img1{
+    background: url(./asssets/follow-img.png);
+    width: 400px;
+    height: 480px;
+
+}
+
+.right-img2{
+    width: 400px;
+    height: 480px;
+    margin: 15px 0;
+}
+.buton-container{
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.contact-btn{
+    display: flex;
+    padding: 27px 75px 22px 75px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #5C8692;
+    box-shadow: 0 0 2px 2px #111E2277;
+    
+}
+.contact-btn a{
+    text-decoration: none;
+    color: white;
+    transition: 200ms;
+}
+
+.contact-btn:hover {
+    /* border: 2px solid #5C8692; */
+    background: transparent;
+    color: #0d2f38;
+    transition: 200ms;
+    box-shadow: 0px 20px 40px 0px rgba(42, 68, 75, 0.13);
+}
+.contact-btn:hover a {
+    /* border: 2px solid #5C8692;
+    background: transparent; */
+    color: #0d2f38;
+    transition: 200ms;
+    box-shadow: 0 0 2px 2px #111E2277;;
+}
+/* /========================FOLLOW US SECTION ENDS HERE========================== */
+
+
+/* =============================================== MOBILE DEV STARTS HERE================= */
+
+
+@media (max-width:1500px){
+
+
+
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+@media (max-width:1400px){
+   
+    .expert-wrapper{
+        flex-wrap: wrap;
+    }
+}
+
+/* /////////////////////// */
+@media (max-width:1000px){
+
+    .about-hero p{
+        font-size: small;
+    }
+
+    .about-hero h3{
+        font-size: 30px;
+    }
+    .bout-us-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: fit-content;
+        font-size: 20%;
+        padding: 20px 10px;
+        width: 100%;
+    }
+.bout-us{
+    padding:20px 0 ;
+}
+
+.bout-left{
+    /* display: none; */
+    width: 90%;
+}
+
+.bout-right{
+    width: 90%;
+}
+
+.right-p{
+    font-size: 30px;
+    text-wrap: wrap;
+    width: fit-content;
+}
+.right-d{
+    font-size: small;
+}
+
+.follow-us-wrapper{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+}
+/* ///////////////////////// */
+@media (max-width:920px){
+
+    .about-hero-container{
+        padding-top:100px  ;
+        }
+    
+        .right-div{
+        padding: 0 auto ;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+         } 
+
+         .left-img{
+            width: 90%;
+         }
+       
+}
+
+
+/* ///////////////////////// */
+@media (max-width:500px) {
+    .value p{
+        font-size: 12px;
+    } 
+
+    .ttt{
+       font-size: 12px;
+    }
+
+    .follow-content{
+        font-size: 10px;
+    }
+
+    .left-div{
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* =============================================== MOBILE DEV ENDS HERE================= */
+
+
+

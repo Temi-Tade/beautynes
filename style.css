@@ -31,7 +31,7 @@ html{
     width: 170px;
     color: #111E22;
     height: 50px;
-    background: url(./asssets/Logo.svg);
+      /* background: url(./asssets/Logo.svg); */
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -147,11 +147,11 @@ button{
     /* border: 3px solid blue; */
 }
 .contact-tel h1{
-    color: #141414;
+    color: #555;
     font-family: Manrope;
-    font-size: 18px;
+    font-size: 15px;
     font-style: normal;
-    font-weight: 600;
+    /* font-weight: 600; */
     line-height: 125%; /* 22.5px */
     letter-spacing: -0.18px;
 }
@@ -200,6 +200,7 @@ button{
     text-decoration: none;
     background: #ffffff;
     gap:1rem ;
+    /* top:0 ; */
 }
 
 .show-links{
@@ -209,7 +210,7 @@ button{
 }
 
 .show-links:hover .hide{
-    top: 3rem;
+    top: 2.5rem;
     transition: .5s;
     transform: scale(1);
     opacity: 1;
@@ -472,6 +473,7 @@ button{
 }
 
 .service-button{
+    background: #111E22;
     display: flex;
 padding: 18px 43px 19px 43px;
 justify-content: center;
@@ -490,7 +492,7 @@ padding: 25px 50px;
 
 .service-button a{
     text-decoration: none;
-    color: #141414;
+    color: #ffffff;
     text-align: center;
     font-family: Manrope;
     font-size: 14px;
@@ -731,23 +733,24 @@ letter-spacing: -0.45px;
 
 .our-services-button{
     display: flex;
-    padding: 23px 34px 24px 34px;
+    padding: 20px 25px 24px 34px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     width: max-content;
     outline: none;
     border: 0;
+    background: #111E22;
 }
 
 .our-services-button a{
     text-decoration: none;
-        color: #141414;
+        color: #ffffff;
     text-align: center;
     font-family: Manrope;
     font-size: 14px;
     font-style: normal;
-    font-weight: 800;
+    /* font-weight: 800; */
     line-height: 125%; /* 17.5px */
     letter-spacing: 1.68px;
     text-transform: uppercase;
@@ -1134,6 +1137,7 @@ letter-spacing: -0.45px;
 .blog-container{
     display: flex;
     justify-content: space-evenly;
+    /* border: 3px solid red;F */
 }
 .blog-img{
     width: 370px;
@@ -1184,6 +1188,7 @@ height: 85px;
     display: flex;
     justify-content: center;
     padding: 20px 0;
+    
 }
 
 .blog-but{
@@ -1194,11 +1199,12 @@ align-items: center;
 gap: 10px;
 outline: 0;
 border: 0;
+background: #111E22;
 }
 
 .blog-but a{
     text-decoration: none;
-    color: #141414;
+    color: #ffffff;
 }
 
 /* ===================BLOG SECTION ENDS HERE================ */
